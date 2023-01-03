@@ -1,6 +1,6 @@
 import os
 from svglib.svglib import svg2rlg
-from reportlab.graphics import renderPM
+import cairosvg
 
 export_width = 240
 export_height = 160
@@ -48,9 +48,10 @@ def modify_size(directory, files):
         filename = os.path.join(path, file)
         print(os.path.isfile(filename))
         if os.path.isfile(filename) and filename.endswith(".svg"):
-            drawing = svg2rlg(filename)
-            renderPM.drawToFile(drawing, "{}.png".format(filename[:-4]), fmt="PNG")
+            cairosvg.svg2png(filename, "{}.png".format(filename[:-4]))
+                        # renderPM.drawToFile(drawing, , fmt="PNG")
 
+            
 modify_size(dir_1x1, files)
 # add_ids(dir_4x3)
 
