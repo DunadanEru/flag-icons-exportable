@@ -3,7 +3,9 @@
     @include flag-icon($country);
   }
 } @else {
+  // Keep xx first as it is often used as fallback
   @include flag-icon(xx);
+
   @include flag-icon(ad);
   @include flag-icon(ae);
   @include flag-icon(af);
@@ -256,10 +258,11 @@
 
   // Other flags
   @include flag-icon(ac);
+  @include flag-icon(arab);
   @include flag-icon(cefta);
   @include flag-icon(cp);
   @include flag-icon(dg);
-  @include flag-icon(ea);
+  @include flag-icon(eac);
   @include flag-icon(es-ct);
   @include flag-icon(es-ga);
   @include flag-icon(es-pv);

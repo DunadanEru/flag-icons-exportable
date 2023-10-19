@@ -187,6 +187,13 @@
     "name": "Barbados"
   },
   {
+    "code": "es-pv",
+    "flag_1x1": "flags/1x1/es-pv.svg",
+    "flag_4x3": "flags/4x3/es-pv.svg",
+    "iso": false,
+    "name": "Basque Country"
+  },
+  {
     "capital": "Minsk",
     "code": "by",
     "continent": "Europe",
@@ -388,13 +395,6 @@
     "name": "Catalonia"
   },
   {
-    "code": "es-pv",
-    "flag_1x1": "flags/1x1/es-pv.svg",
-    "flag_4x3": "flags/4x3/es-pv.svg",
-    "iso": false,
-    "name": "Basque Country"
-  },
-  {
     "capital": "George Town",
     "code": "ky",
     "continent": "North America",
@@ -418,13 +418,6 @@
     "flag_4x3": "flags/4x3/cefta.svg",
     "iso": false,
     "name": "Central European Free Trade Agreement"
-  },
-  {
-    "code": "ea",
-    "flag_1x1": "flags/1x1/ea.svg",
-    "flag_4x3": "flags/4x3/ea.svg",
-    "iso": false,
-    "name": "Ceuta & Melilla"
   },
   {
     "capital": "N'Djamena",
@@ -619,6 +612,13 @@
     "flag_4x3": "flags/4x3/do.svg",
     "iso": true,
     "name": "Dominican Republic"
+  },
+  {
+    "code": "eac",
+    "flag_1x1": "flags/1x1/eac.svg",
+    "flag_4x3": "flags/4x3/eac.svg",
+    "iso": false,
+    "name": "East African Community"
   },
   {
     "capital": "Quito",
@@ -1180,6 +1180,13 @@
     "flag_4x3": "flags/4x3/lv.svg",
     "iso": true,
     "name": "Latvia"
+  },
+  {
+    "code": "arab",
+    "flag_1x1": "flags/1x1/arab.svg",
+    "flag_4x3": "flags/4x3/arab.svg",
+    "iso": false,
+    "name": "League of Arab States"
   },
   {
     "capital": "Beirut",
@@ -2152,15 +2159,6 @@
     "name": "Tunisia"
   },
   {
-    "capital": "Ankara",
-    "code": "tr",
-    "continent": "Asia",
-    "flag_1x1": "flags/1x1/tr.svg",
-    "flag_4x3": "flags/4x3/tr.svg",
-    "iso": true,
-    "name": "Turkey"
-  },
-  {
     "capital": "Ashgabat",
     "code": "tm",
     "continent": "Asia",
@@ -2186,6 +2184,15 @@
     "flag_4x3": "flags/4x3/tv.svg",
     "iso": true,
     "name": "Tuvalu"
+  },
+  {
+    "capital": "Ankara",
+    "code": "tr",
+    "continent": "Asia",
+    "flag_1x1": "flags/1x1/tr.svg",
+    "flag_4x3": "flags/4x3/tr.svg",
+    "iso": true,
+    "name": "Türkiye"
   },
   {
     "capital": "Kampala",
